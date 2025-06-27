@@ -1,0 +1,89 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #888;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  text-align: left;
+}
+
+table th {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+button,
+input[type="submit"] {
+  padding: 10px 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+a button {
+  margin-left: 6px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a[href="https://www.example.com"] {
+  display: inline-block;
+  margin-top: 20px;
+  color: #3498db;
+}
