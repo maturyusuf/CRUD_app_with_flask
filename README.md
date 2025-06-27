@@ -23,8 +23,8 @@ A simple task management web application built with Flask and SQLAlchemy that al
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/flask-taskmaster.git
-   cd flask-taskmaster
+   git clone https://github.com/maturyusuf/CRUD_app_with_flask.git
+   cd CRUD_app_with_flask
 
 2. **Create a virtual environment (recommended)**:
   ```bash
@@ -33,7 +33,7 @@ A simple task management web application built with Flask and SQLAlchemy that al
 ```
 3. **Install dependencies**:
   ```bash
-  pip install flask flask-sqlalchemy
+  pip install -r requirements.txt
 ```
 4. **Run the application**
 ```bash
